@@ -11,6 +11,8 @@
     --stroke-default:#D6D3D1;
     --stroke-highligth: #F3541C;
     --semantic-erro:#DC2626;
+
+    
 }
 *{
     margin: 0;
@@ -19,4 +21,13 @@
 }
 body{
     overflow: hidden;
+    font: var(--text);
+    color: var(--text-secondary);
+}
+h1, h2{
+    color: var(--text-primary);
+}
+img{
+    max-width: 100%;
+     height: auto;
 }
