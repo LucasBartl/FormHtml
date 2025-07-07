@@ -1,3 +1,4 @@
+@import url(droparea.css);
 input, textarea, select{
    appearance: none; 
    width: 100%;
@@ -37,4 +38,9 @@ input[type="date"]{
         top: 50%;
         transform: translate(-50%);
     } 
+}
+select{
+    background: url(../assets/arrow-down-01.svg) no-repeat right calc(100% - 1rem);
+
+    
 }
