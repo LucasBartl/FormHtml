@@ -11,6 +11,7 @@
     --stroke-default:#D6D3D1;
     --stroke-highligth: #F3541C;
     --semantic-erro:#DC2626;
+    --surface-disabed:#E7E5E4;
 
     
 }
@@ -30,4 +31,14 @@ h1, h2{
 img{
     max-width: 100%;
      height: auto;
+}
+
+.flex{
+    display: flex;
+}
+.flex-1{
+    flex: 1
+}
+.flex-2{
+    flex: 2
 }
